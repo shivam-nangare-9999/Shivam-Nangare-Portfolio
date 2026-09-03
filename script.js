@@ -9,6 +9,8 @@ document.addEventListener('DOMContentLoaded', function() {
   const sidebar = document.querySelector("[data-sidebar]");
   const sidebarBtn = document.querySelector("[data-sidebar-btn]");
 
+
+
   // sidebar toggle functionality for mobile
   if (sidebarBtn) {
     sidebarBtn.addEventListener("click", function () { elementToggleFunc(sidebar); });
